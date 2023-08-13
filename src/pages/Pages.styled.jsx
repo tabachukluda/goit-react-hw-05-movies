@@ -22,7 +22,7 @@ export const MoviesList = styled('div')`
 
 export const MovieTitle = styled('h2')`
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 `;
 
