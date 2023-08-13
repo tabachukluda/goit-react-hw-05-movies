@@ -9,6 +9,7 @@ export const LinkItem = styled(Link)`
     flex-direction: column;
     text-decoration: none;
     margin-bottom: 40px;
+    border-radius: 5px;
 `;
 
 export const MoviesList = styled('div')`
@@ -45,8 +46,9 @@ export const LinkButton = styled(Link)`
 
 export const TrendingTitle = styled('h1')`
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 35px;
+    color: darkred;
 `;
 
 
@@ -79,6 +81,10 @@ export const MoviesSearchButton = styled('button')`
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid black;
+    &:hover,
+    :focus {
+    background-color: white;
+    color: darkred;
 `;
 
 

@@ -7,10 +7,6 @@ const Layout = lazy(() =>
       ...module,
       default: module.Layout,
     }))
-    .catch(error => {
-      console.error("Error while loading Layout:", error);
-      throw error;
-    })
 );
 
 const Movies = lazy(() =>
